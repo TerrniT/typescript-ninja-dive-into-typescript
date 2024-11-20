@@ -35,7 +35,6 @@ layout: intro
 - Type System Fundamentals
 - Advanced Type Features
 - Best Practices & Patterns
-- Real-world Applications
 
 </v-clicks>
 
@@ -118,19 +117,7 @@ layout: default
 
 # Generics Excellence
 
-```ts {all|1-3|5-11|13-19|all}
-function identity<T>(arg: T): T {
-    return arg;
-}
-
-class Container<T> {
-    private value: T;
-
-    constructor(value: T) {
-        this.value = value;
-    }
-}
-
+```ts {all|1-5|7-11|all}
 interface ApiResponse<T> {
     data: T;
     status: number;
@@ -185,7 +172,7 @@ layout: default
 ```ts {all|1-3|5-13|15-21|all}
 type StringOrNumber = string | number;
 type UserRole = "admin" | "user" | "guest";
-type Nullable<T> = T | null;
+
 
 function processValue(value: StringOrNumber) {
     if (typeof value === "string") {
@@ -226,8 +213,6 @@ layout: default
 - Leverage type inference
 - Document with JSDoc comments
 - Use type guards for runtime safety
-- Prefer union types over enums
-- Make immutability the default
 
 </v-clicks>
 
