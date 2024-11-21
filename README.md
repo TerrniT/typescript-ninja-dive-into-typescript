@@ -4,18 +4,18 @@ Welcome to the TypeScript Ninja Masterclass! This course is designed for develop
 
 ## Prerequisites
 Before participating in the masterclass, you should have:
-- Basic knowledge of JavaScript.
+- Basic knowledge of Javascript.
 - Familiarity with HTML and CSS.
 - A working setup of Node.js.
 - Basic understanding of command line tools.
 
 ## Course Outline
-1. **Introduction to TypeScript**
-   - What is TypeScript?
-   - TypeScript vs. JavaScript
+1. **Introduction to Typescript**
+   - What is Typescript?
+   - Typescript vs. Javascript
    - Setting up the development environment
 
-2. **Type System in TypeScript**
+2. **Type System in Typescript**
    - Basic Types (string, number, boolean)
    - Complex Types (arrays, tuples, enums)
    - Type Inference
